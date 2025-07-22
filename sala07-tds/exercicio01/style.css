@@ -1,4 +1,4 @@
-body{
+body {
     background-color: #F5F5DC;
     display: flex;
     height: 100vh;
@@ -8,7 +8,7 @@ body{
 }
 
 
-button{
+button {
     background-color: #ffffff;
     color: #090909;
     border: none;
@@ -16,4 +16,10 @@ button{
     border-radius: 999px;
     font-size: 20px;
     border: 3px solid #F5F5DC;
+}
+
+button:hover {
+    background-color: transparent;
+    border: 3px solid #F5F5DC;
+    cursor: pointer;
 }
