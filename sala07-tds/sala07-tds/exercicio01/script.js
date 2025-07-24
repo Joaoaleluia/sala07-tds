@@ -45,11 +45,18 @@ function media(){
     var nota3 = parseFloat(document.getElementById("nota3").value)
     var nota4 = parseFloat(document.getElementById("nota4").value)
     var nota5 = parseFloat(document.getElementById("nota5").value)
-    var resposta = document.getElementById("respMedia")
+    var media= document.getElementById("respMedia")  
+    media.textContent = (nota1 + nota2 + nota3 + nota4 + nota5)/5
+    var resposta = (nota1 + nota2 + nota3 + nota4 + nota5)/5
 
-    if (resposta < 7){
-        
+    if (resposta < 7 ){
+        media.style.color = 'red'
+    }else{
+        media.style.color = 'green'
     }
-
-    resposta.textContent = (nota1 + nota2 + nota3 + nota4 + nota5)/5
 }
+
+// arrow function
+// const media = () => {
+
+// }
