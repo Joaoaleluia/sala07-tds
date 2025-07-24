@@ -1,27 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>media</title>
     <link rel="stylesheet" href="mediaStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body class="background">
     <h1>Cálculo da sua média</h1>
     <br>
-    <label for="nota1">Digite sua nota</label><br>
-    <input type="number" id="nota1" placeholder="Digite um número"><br><br>
-    <label for="nota2">Digite sua nota</label><br>
-    <input type="number" id="nota2" placeholder="Digite um número"><br><br>
-    <label for="nota3">Digite sua nota</label><br>
-    <input type="number" id="nota3" placeholder="Digite um número"><br><br>
-    <label for="nota4">Digite sua nota</label><br>
-    <input type="number" id="nota4" placeholder="Digite um número"><br><br> 
-    <label for="nota4">Digite sua nota</label><br>
-    <input type="number" id="nota5" placeholder="Digite um número"><br><br>   
-    <button onclick="media()">CÁLCULAR</button><br>
-    <h2 id="respMedia"></h2>
+    <div class="container">
+        <label for="nota1">Digite sua nota</label>
+        <input type="number" id="nota1" placeholder="Digite um número"><br><br>
+        <label for="nota2">Digite sua nota</label>
+        <input type="number" id="nota2" placeholder="Digite um número"><br><br>
+        <label for="nota3">Digite sua nota</label>
+        <input type="number" id="nota3" placeholder="Digite um número"><br><br>
+        <label for="nota4">Digite sua nota</label>
+        <input type="number" id="nota4" placeholder="Digite um número"><br><br>
+        <label for="nota4">Digite sua nota</label>
+        <input type="number" id="nota5" placeholder="Digite um número"><br><br>
+        <button onclick="media()">CÁLCULAR</button>
+        <div>
+            <h2 id="respMedia"></h2>
 
-    <script src="script.js"></script>
+            <script src="script.js"></script>
 </body>
+
 </html

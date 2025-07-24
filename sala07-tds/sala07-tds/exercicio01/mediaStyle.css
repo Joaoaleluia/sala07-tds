@@ -2,5 +2,84 @@
     background-image: url("./images/pngtree-blue-grid-education-background-picture-image_1219968.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+
+}
+.container{
+    background-color: rgba(192, 192, 246, 0.374);
+    display: flex;
+    gap: 5px;
+    padding: 30px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: top 1s linear;
+    border-radius: 20px;
+}
+
+@keyframes top{
+    0%{
+        opacity:0
+    }100%{
+        opacity:1
+    }
+}
+
+h1{
+    font-size: 40px;
+    color: rgb(189, 169, 250);
+    animation: bottom 1s linear; 
+    font-family: "Roboto", sans-serif;
+   
+}
+
+@keyframes bottom{
+    0%{
+        transform: translateY(-100px);
+        opacity: 0;
+    }100%{
+        opacity: 100;
+    }
+}
+
+label{
+    text-align: left;
+    width: 100%;
+    font-size: 15px;
+}
+
+input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid;
+    font-weight: bold;
+}
+button{
+    font-size: 15px;
+    background-color: rgb(189, 169, 250);
+    border: none;
+    border-radius: 20px;
+    transition: all 200ms ease-in-out;
+
+    
+}
+
+button:hover{
+    box-shadow: rgba(255, 255, 255, 0.16) 0px 1px 4px, rgb(255, 255, 255) 0px 0px 0px 3px;
+}
+
+#media{
+    font-size: 30px;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

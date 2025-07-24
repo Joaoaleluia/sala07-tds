@@ -51,8 +51,10 @@ function media(){
 
     if (resposta < 7 ){
         media.style.color = 'red'
+        media.style.backgroundColor = 'lightpink'
     }else{
         media.style.color = 'green'
+        media.style.backgroundColor = 'lightgreen'
     }
 }
 
