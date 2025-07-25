@@ -36,3 +36,26 @@ ul li a span{
     letter-spacing: 4px;
     transition: 0,5s;
 }
+
+ul li a {
+    width: 250px;
+    height: 80px;
+    background-color: blueviolet;
+    display:block ;
+    text-align: left;
+    padding-left: 15px;
+    transform: rotate(-30deg) skewX(25deg);
+}
+
+ul li a:before{
+    position: absolute;
+    top: 10px;
+    left: -20px;
+    height: 100%;
+    width: 20px;
+    background: ;
+}
+
+ul li a:after {
+    content: '';
+}
